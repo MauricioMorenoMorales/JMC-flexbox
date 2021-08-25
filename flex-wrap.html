@@ -16,8 +16,11 @@
 			height: 30vh;
 
 			display: flex;
-			flex-flow: column nowrap;
-			justify-content: flex-start ;
+			/* flex-direction: row; */
+			flex-direction: column;
+			/*row-reverse | column | row | column-reverse*/
+			flex-wrap: wrap;
+			flex-flow: column nowrap; /*Shorcut de direction y wrap*/
 		}
 
 		.item {
